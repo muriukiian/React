@@ -1,7 +1,7 @@
 .card{
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px;
-  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.2);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -31,9 +31,11 @@
   border: none;
   cursor: pointer;
   margin: 10px;
+  box-shadow: 5px 5px 5px hsla(226, 81%, 58%, 0.3);
 }
 .button:hover{
   background-color: teal;
+
 }
 .form{
   padding: 20px;
@@ -82,4 +84,10 @@ a:hover{
   padding: 10px;
   border-radius: 5px;
   margin: 0;
+}
+.input{
+  padding: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  border-radius: 10px;
+  border: 1px rgb(179, 175, 175);
 }
