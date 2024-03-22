@@ -1,6 +1,6 @@
 function Footer(){
   return(
-    <footer>
+    <footer className="form">
       <p>&copy; {new Date().getFullYear()} Ian Muriuki</p>
     </footer>    
   );
